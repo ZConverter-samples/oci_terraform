@@ -93,7 +93,7 @@ Prepare your environment for authenticating and running your Terraform scripts. 
 
    1. **Log in to the Oracle Cloud site and access the user portal.**
 
-      ![Login](https://objectstorage.ap-seoul-1.oraclecloud.com/p/UintikT5Bz9_ciVuEgqCJ1b1d34PzwoDZM1HV2trqjydCVx7XQbaOLRRR5PWep9T/n/cnfyb6dq82p9/b/test_bucket/o/login.png)  
+      ![Login](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/login.png)  
 
    2. **Enter the User menu.**
 
