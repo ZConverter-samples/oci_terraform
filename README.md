@@ -140,7 +140,7 @@ Prepare your environment for authenticating and running your Terraform scripts. 
 ## Install OCI Terraform Data
    Install the **terraform data** you need to make your OCI vm.
 
-   1. **Download [Terraform data](https://objectstorage.ap-seoul-1.oraclecloud.com/p/EDWNpjJwJYr5Uf2SX2cDlIsLdLY4tzTL8p3KGh5OXByBh3qVi120mQEslLS3NWyZ/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/oci_terraform.zip)**
+   1. **Download [Terraform data](https://github.com/zconverter/ZCM-Baisc/raw/master/image/oci_terraform/oci_terraform.zip)**
 
    2. **Unzip OCI Terraform data**
 
