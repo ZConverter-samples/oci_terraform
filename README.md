@@ -97,47 +97,43 @@ Prepare your environment for authenticating and running your Terraform scripts. 
 
    2. **Enter the User menu.**
 
-      ![Account User](https://objectstorage.ap-seoul-1.oraclecloud.com/p/ZOKRkEnpLI3IHFs80_aW3Ciy6HTd-skSGzNuZ2fzSywbU6MSdWf2U5dOxN9ID_1X/n/cnfyb6dq82p9/b/test_bucket/o/Select%20Users.png)  
+      ![Account User](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/user_account.png)  
 
    3. **Choice User Account Name to use.**
 
-      ![Account Users](https://objectstorage.ap-seoul-1.oraclecloud.com/p/Mj3mBoNkl6NWjDLhtxfe63J-4Lq2r6VyKoZIxFOYEus_uUxy4KO4yL8-1O-EXKAX/n/cnfyb6dq82p9/b/test_bucket/o/Account%20Users.png)
+      ![Account Users](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/user_account_choice.png)
 
-   4. **Click api-key in the lower left resource**
+   4. **Click api-key in the lower left resource and click add api key**
 
-      ![Api-Key](https://objectstorage.ap-seoul-1.oraclecloud.com/p/mZP_d9myS9aL_V3lTFWWtr4qU9puC_l3rkUGxclnR-aTUGedd4YEn4faWMU3jww8/n/cnfyb6dq82p9/b/test_bucket/o/Select%20API.png)
+      ![Api-Key](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/api_key_add.png)
 
-   5. **Click add api key**
+   5. **Under API Key Pairing, click Download Private Key and Download Public Key, and then click the Add button. If there are more than three API Key, Delete API Key or use another User Account Name.**
 
-      ![Api-Key](https://objectstorage.ap-seoul-1.oraclecloud.com/p/wTwhMhRpk_lhRDXu-4RnSznJrNTFkIEI53rONT3YTeCh-QFG-t-NSEeYzvQ2MSQ9/n/cnfyb6dq82p9/b/test_bucket/o/Add%20API%20Key.png)
-
-   6. **Under API Key Pairing, click Download Private Key and Download Public Key, and then click the Add button. If there are more than three API Key, Delete API Key or use another User Account Name.**
-
-      ![Api-Key](https://objectstorage.ap-seoul-1.oraclecloud.com/p/1j-WJIccEQU3XQs6I0Hif6_VQ9hhWtnGp6vAfuXv4iR2yIBLHjunW93NqjAPtvXX/n/cnfyb6dq82p9/b/test_bucket/o/Add%20API.png)
+      ![Api-Key](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/api_key_download_key_file.png)
 
    7. **Copy the results from Configuration File Preview onto the notepad.**
 
-      ![Configuration](https://objectstorage.ap-seoul-1.oraclecloud.com/p/FfXcylPsG9x_WGq1tON5N30HMQEKHWsNZFUWlDAtC3EJKEybxBogSNvdN16niP6z/n/cnfyb6dq82p9/b/test_bucket/o/Configuration.png)
+      ![Configuration](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/api_key_copy.png)
    
    8. **Select Networking from the menu, then select Virtual Cloud Networks**
 
-      ![Networking-Virtual Cloud Network](https://objectstorage.ap-seoul-1.oraclecloud.com/p/Ulj5DJRXrogaUhSUYiYLp4q4LUiht9xkaiGMOpx3QOhFnrZrC8nbQ1SJ49UDTGrD/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/Networking-Virtual%20Cloud%20Network.png)
+      ![Networking-Virtual Cloud Network](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/click_vcn.png)
    
    9. **Choice VCN User Account Name to use**
 
-      ![Select VCM User Account Name](https://objectstorage.ap-seoul-1.oraclecloud.com/p/5prXUWaNWNUVGCUtbHfstzC_jEMIXQGzOoF2VfEQDp4D9DYptUVBlWdOGNSBNv5F/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/Select%20VCN.png)
+      ![Select VCM User Account Name](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/click_vcn_zcon.png)
 
    1. **Choice Subnets Name to use**
 
-      ![Select Subnets Name](https://objectstorage.ap-seoul-1.oraclecloud.com/p/COkmv-Hnf2SEdSeCJaMj2YGUpdTQxqUOIP6MIOzX_Uw9U0Ag87vhyhR0Xj46tKlW/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/Select%20Subnet.png)
+      ![Select Subnets Name](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/click_subnet.png)
 
    1. **Copy the Subnet OCID onto the notepad**
 
-      ![Subnet OCID](https://objectstorage.ap-seoul-1.oraclecloud.com/p/L432fY2P28qhOKUfoVtCnnRjJbfSJF-gj6zfHVsya8m07v923kS1NXTEa2zGqtGY/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/Subnet%20OCID.png)
+      ![Subnet OCID](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/copy_subnet_ocid.png)
 
    1. **Result**
 
-      ![Result](https://objectstorage.ap-seoul-1.oraclecloud.com/p/d3DO2uh2rqpVCS2hPOWWju16rVKWNFcGoFTOMpFn00QhnsJYgK4ew5OWAEjcaRbJ/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/result.png)
+      ![Result](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/download_result.png)
 
   
 
