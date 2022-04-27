@@ -185,7 +185,7 @@ Prepare your environment for authenticating and running your Terraform scripts. 
 
    2. **Start CMD**
 
-      ![cmd](https://objectstorage.ap-seoul-1.oraclecloud.com/p/XzXmdi7e-eQrmxk3S9QpiC62EmqKS7Mui5rav_-8bLONUsFPqIGk24P-FoJmQTu5/n/cnfyb6dq82p9/b/test_bucket/o/start%20cmd.png)
+      ![cmd](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/start_cmd.png)
 
    3. **Go to the file path of Terraform.exe and Initialize the working directory containing the terraform configuration file.**
 
@@ -196,9 +196,9 @@ Prepare your environment for authenticating and running your Terraform scripts. 
       **Note**
       * -chdir : The usual way to run Terraform is to first switch to the directory containing the `.tf` files for your root module (for example, using the `cd` command), so that Terraform will find those files automatically without any extra arguments.
 
-      ![terraform init](https://objectstorage.ap-seoul-1.oraclecloud.com/p/PxVvenXLonevJC75fqTtJBehD7AHcSMOaWFoM1OSfUyquxl_uFZ0Z2kjBheE_rz8/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/terraform%20init.png)
+      ![terraform init](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/tf_init.png)
    
-      ![terraform init result](https://objectstorage.ap-seoul-1.oraclecloud.com/p/5mzjf9AlmTRbUvg2QeSV3RzpqSvDWjqeQVmji9vYBxYqKTeTIrBdqvYySFTweOCC/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/terraform%20init%20result.png)
+      ![terraform init result](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/tf_init_result.png)
 
 
    4. **Creates an execution plan. By default, creating a plan consists of:**
@@ -215,7 +215,7 @@ Prepare your environment for authenticating and running your Terraform scripts. 
       * -var-file : Sets values for potentially many [input variables](https://www.terraform.io/docs/language/values/variables.html) declared in the root module of the configuration, using definitions from a ["tfvars" file](https://www.terraform.io/docs/language/values/variables.html#variable-definitions-tfvars-files). Use this option multiple times to include values from more than one file.
       * The file name of vars.tfvars can be changed.
 
-      ![terraform plan](https://objectstorage.ap-seoul-1.oraclecloud.com/p/FvA5NEq3E1wlqv-8HD4SVMjAyXVSWl7Kc8Ot98rs5w3vBgNBIxAp4856DPqTrAiU/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/terraform%20plan.png)
+      ![terraform plan](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/tf_plan.png)
 
    5. **Executes the actions proposed in a Terraform plan.**
 
@@ -225,8 +225,8 @@ Prepare your environment for authenticating and running your Terraform scripts. 
       **Note**
       * -auto-approve : Skips interactive approval of plan before applying. This option is ignored when you pass a previously-saved plan file, because Terraform considers you passing the plan file as the approval and so will never prompt in that case.
 
-      ![terraform apply](https://objectstorage.ap-seoul-1.oraclecloud.com/p/SoxEo0Ow-RjYmndQ6_7Zq03BabF2XEl2TutQCz4WcvWnh0eUIl6T5Shhl-YTyrIy/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/terraform%20apply.png)
+      ![terraform apply](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/tf_apply.png)
 
    6. **Result**
 
-      ![terraform apply result](https://objectstorage.ap-seoul-1.oraclecloud.com/p/tqi-vkce_08TSsvkoZh-VL1lPxiqWAFaeMGwhKI2RiuFJ08G7buB8ePms0kS-mad/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/terraform%20apply%20result.png)
+      ![terraform apply result](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/result_terraform%20apply.png)
