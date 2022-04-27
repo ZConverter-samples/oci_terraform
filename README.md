@@ -144,7 +144,7 @@ Prepare your environment for authenticating and running your Terraform scripts. 
 
    2. **Unzip OCI Terraform data**
 
-      ![OCI terraform data](https://objectstorage.ap-seoul-1.oraclecloud.com/p/vdefQu1xjF4FFLeaNQwGmBegQr1ji0QwXKoXB4MB6bgsiquRNjiq1qoA3wezVOst/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/terraform%20OCi%20data.png)
+      ![OCI terraform data](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/unzip_oci_terraform.png)
 
 
 
@@ -152,7 +152,7 @@ Prepare your environment for authenticating and running your Terraform scripts. 
 
    1. **Edit a vars.tfvars File you want to create VM**
 
-      ![vars.tfvars](https://objectstorage.ap-seoul-1.oraclecloud.com/p/JCZF2EFjD5hU-isTloeWYfU8osHFwFI0oMoDrKY7dSp8ghvuHF4CHIHEqr2bRcXi/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/Edit%20a%20vars.tfvars.png)
+      ![vars.tfvars](https://raw.githubusercontent.com/zconverter/ZCM-Baisc/master/image/oci_terraform/var_tfvar.png)
 
       * vars.tfvars data info:
          + tenancy : Use the tenancy noted in API Key creation.
@@ -182,8 +182,6 @@ Prepare your environment for authenticating and running your Terraform scripts. 
          + ssh_public_key_path : Linux-like operating systems require the file path of the user's ssh_public key.
          + ocpus : You must enter the number of CPUs when using Flexible_shape. The range is from 1 to 64.
          + memory_in_gbs : When using Flexible_shape, you must select memory capacity. The range is from cpu count to 1024.
-
-      ![vars.tfvars example](https://objectstorage.ap-seoul-1.oraclecloud.com/p/UUb0M_3gy8hI1CCLZM5cO3q3PLKRyzaoA2GbHs6h4ZRTIO4TJd-lYk61_e1LBboy/n/cnfyb6dq82p9/b/OCI_Terraform_reference/o/vars.tfvars%20result.png)
 
    2. **Start CMD**
 
