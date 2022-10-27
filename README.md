@@ -24,7 +24,7 @@ To successfully perform this tutorial, you must have the following:
    * Oracle Cloud Infrastructure Cloud Shell:
       -  [Cloud Shell](https://docs.oracle.com/iaas/Content/API/Concepts/cloudshellintro.htm)
    * Windows 10
-      -  [Windows Subsystem for Linux](https://ubuntu.com/wsl) (WSL)
+      -  [Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/install-win10) (WSL)
       -  [Git for Windows](https://gitforwindows.org/) to access a Linux VM.
 
 
@@ -33,40 +33,35 @@ To successfully perform this tutorial, you must have the following:
 Prepare your environment for authenticating and running your Terraform scripts. Also, gather the information your account needs to authenticate the scripts.
 
 ### Install Terraform
-   Install the latest version of Terraform **v13.0+**:
+   Install the latest version of Terraform **v1.3.0+**:
 
    1. In your environment, check your Terraform version.
       ```script
       terraform -v
       ```
 
-      If you don't have Terraform **v13.0+**, then install Terraform using the following steps.
+      If you don't have Terraform **v1.3.0+**, then install Terraform using the following steps.
 
    2. From a browser, go to [Download Latest Terraform Release](https://www.terraform.io/downloads.html).
 
-   3. Find the link for your environment and then **copy** the link address. Example for Linux 64-bit:
-      ```script
-      https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_linux_amd64.zip
-      ```
-
-      * IF you use Windows os, Use the cmd command line
+   3. Find the link for your environment and then follow the instructions for your environment. Alternatively, you can perform the following steps. Here is an example for installing Terraform v1.1.3 on Linux 64-bit.
 
    4. In your environment, create a temp directory and change to that directory:
       ```script
       mkdir temp
       ```
       ```script
-      dc temp
+      cd temp
       ```
 
    5. Download the Terraform zip file. Example:
       ```script
-      wget https://releases.hashicorp.com/terraform/0.13.1/terraform_0.13.1_linux_amd64.zip
+      wget https://releases.hashicorp.com/terraform/1.3.3/terraform_1.3.3_linux_amd64.zip
       ```
 
    6. Unzip the file. Example:
       ```script
-      unzip terraform_0.13.1_linux_amd64.zip
+      unzip terraform_1.3.3_linux_amd64.zip
       ```
 
    7. Move the folder to /usr/local/bin or its equivalent in Mac. Example:
@@ -84,7 +79,7 @@ Prepare your environment for authenticating and running your Terraform scripts. 
       terraform -v
       ```
 
-      Example: `Terraform v0.13.1`.
+      Example: `Terraform v1.3.3 on linux_amd64`.
 
 ### Create API-Key
    If you created API keys for the Terraform Set Up Resource Discovery tutorial, then skip this step.
