@@ -44,7 +44,7 @@ Prepare your environment for authenticating and running your Terraform scripts. 
 
    2. From a browser, go to [Download Latest Terraform Release](https://www.terraform.io/downloads.html).
 
-   3. Find the link for your environment and then follow the instructions for your environment. Alternatively, you can perform the following steps. Here is an example for installing Terraform v1.1.3 on Linux 64-bit.
+   3. Find the link for your environment and then follow the instructions for your environment. Alternatively, you can perform the following steps. Here is an example for installing Terraform v1.3.3 on Linux 64-bit.
 
    4. In your environment, create a temp directory and change to that directory:
       ```script
